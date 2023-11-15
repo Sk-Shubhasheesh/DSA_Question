@@ -4,6 +4,7 @@
 */
 
 //Optimal Solution
+#include <bits/stdc++.h>
 int consecutiveOnes(vector<int>& arr){
     //Write your code here.
     int maxi = 0;
