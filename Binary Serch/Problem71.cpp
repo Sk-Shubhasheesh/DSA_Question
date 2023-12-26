@@ -1,4 +1,4 @@
-// Problem 71 - Median in a row-wise sorted Matrix
+// Problem 71 - Median in a row-wise sorted Matri
 // Problem link - https://www.codingninjas.com/codestudio/problems/median-of-a-row-wise-sorted-matrix_1115473?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 
