@@ -1,4 +1,4 @@
-// Problem 92 - Add Two Numbers in LL
+// Problem 92 - Add Two Numbers in LinkedList
 // Problem Link: https://tinyurl.com/5n98urdv 
 
 Node *addTwoNumbers(Node *num1, Node *num2)
