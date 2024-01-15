@@ -1,0 +1,21 @@
+// Problem 114- - Add 1 to a number represented by LinkedList
+// Problem Link: https://tinyurl.com/3hrjsb36
+int addHelper(Node* temp){
+    if(temp == NULL) return 1;
+    int carry = addHelper(temp->next);
+    temp->data +=carry;
+    if(temp->data < 10) return 0;
+    temp->data = 0;
+    return 1;
+}
+Node *addOne(Node *head)
+{
+    // Write Your Code Here.
+    int carry = addHelper(head);
+    if(carry == 1){
+        Node* newNode = new Node(1);
+        newNode -> next = head;
+        head =newNode;
+    }
+    return head;
+}
